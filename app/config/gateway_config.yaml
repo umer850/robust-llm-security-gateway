@@ -1,0 +1,16 @@
+# gateway_config.yaml
+
+gateway:
+  # Rule-based detection settings
+  rule_threshold: 0.6
+  
+  # Semantic detection settings
+  semantic_threshold: 0.75
+  semantic_model_name: "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+  
+  # Policy Engine Risk Calculation Weights
+  pii_weight: 0.2
+  secret_weight: 0.3
+  
+  # Threshold to BLOCK the request
+  block_threshold: 0.8

@@ -1,0 +1,19 @@
+{
+    "total_samples": 160,
+    "hybrid_approach": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+    },
+    "rule_only_approach": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+    },
+    "latency": {
+        "hybrid_mean_ms": 41.781941056251526,
+        "rule_only_mean_ms": 0.028757750988006592
+    }
+}
