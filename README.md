@@ -107,3 +107,6 @@ This will:
 - **Model Limitations**: 
   - The Presidio PII detector relies heavily on regex and basic context-awareness for custom entities (CNIC, Student ID). It may miss highly malformed inputs.
   - The Semantic model calculates distance against a finite "seed" array of known attacks. While highly robust against paraphrasing, entirely novel attack vectors semantically distinct from the seed list may bypass the ML check and fall back to the rule-detector.
+ 
+  ## Link to demo video:
+  https://drive.google.com/file/d/18vFlUt2EtnZRzyEmZ3H8mV9yzehsgadK/view?usp=drive_link
